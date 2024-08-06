@@ -1,0 +1,25 @@
+/* src/components/Header.css */
+.header {
+    background-image: url('https://cdn.you.com/youagent-images/dalle3/874742ce-82ea-4789-ba6e-985e37e07c0a.png'); /* Update the path to your image */
+    height: 200px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
